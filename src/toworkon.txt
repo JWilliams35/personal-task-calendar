@@ -1,0 +1,19 @@
+To-do list in the to-do list:
+
+> start base on listing
+> use css to imporve ui
+	>
+> create multiple tabs to catigorize task
+	> tabs are labeled as:
+		> personal health
+			> section where task involving personal hygien, excerise or meals are stored
+		> inventory
+			> section where task involving shoping, in store or online are stored (while can over-lap with the social tab, it depends what your goal is)
+		> education
+			> anything where learning is involved and while it says eduction, task assigned from work counts as well 
+		> social 
+			> any social event or plans you made, friends, family, ect.
+		> other
+			> anything else
+> include functionaltiy to pair each task with an image
+> create back end, probably with express, so task don't reset
