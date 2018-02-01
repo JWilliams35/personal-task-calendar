@@ -1,5 +1,6 @@
 import React from 'react';
 import Tabs from './components/Tabs.js';
+import Starter from './components/test.js';
 
 const styles = {
   fontFamily: 'sans-serif',
@@ -12,9 +13,9 @@ class App extends React.Component {
   }
   render() {
     const content = {
-      aTab: 'Tab A',
-      bTab: 'Tab B',
-      cTab: 'Tab C',
+      aTab: <Starter/>,
+      bTab: <Starter />,
+      cTab: <Starter />,
     };
     return (
       <div style={styles}>
