@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import ReactDOM from 'react-dom';
 import './App.css';
 
 const tabs = [{
@@ -73,6 +74,6 @@ class Tabs extends React.Component {
   }
 }
 
-export default App;
+//export default App;
 
-//ReactDOM.render(<App tabs={tabs} firstSelect={1} />, document.getElementById('app'));
+ReactDOM.render(<App tabs={tabs} firstSelect={1} />, document.getElementById('app'));
