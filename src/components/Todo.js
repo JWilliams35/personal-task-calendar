@@ -1,9 +1,11 @@
 import React from 'react';
-
+import './css/Todo.css';
 
 export default class TodoInput extends React.Component {
 	constructor (props) {
 		super (props)
+
+		this.state = {value: "test"};
 
 		this.handleChange = this.handleChange.bind(this);
 		this.addTodo = this.addTodo.bind(this);
@@ -11,6 +13,10 @@ export default class TodoInput extends React.Component {
 
 	handleChange(e) {
 		console.log("change here");
+	}
+
+	addTodo(todo){
+		console.log("TODO: ", todo);
 	}
 	render(){
 		return (
